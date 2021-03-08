@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/linear_bg">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="260dp"
+        android:layout_height="257dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/icd_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/ic_safemarket_out" />
+
+    <EditText
+        android:id="@+id/token"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="@color/colorPrimaryLight"
+        android:ems="10"
+        android:hint="@string/tft_token"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColorHint="@color/placeHolder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/avenir"
+        android:text="@string/txt_wel"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/btn_rounded"
+        android:ems="8"
+        android:fontFamily="@font/avenir"
+        android:text="@string/submit"
+        android:textColor="@color/colorPrimaryDarkest"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/token" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

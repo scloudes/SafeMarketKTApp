@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SafeMarket</string>
+    <string name="icd_logo">SafeMarket Logo</string>
+    <string name="icd_arrows">Botones de actualización</string>
+    <string name="tft_token">Token de acceso</string>
+    <string name="submit">Ingresar</string>
+    <string name="txt_wel">Ingresa a SafeMarket</string>
+    <string name="cur_peo">Personas: / </string>
+    <string name="percent">Aforo al: </string>
+</resources>
